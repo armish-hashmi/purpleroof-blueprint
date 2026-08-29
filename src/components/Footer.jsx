@@ -41,49 +41,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#15132c] text-gray-300">
-      <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-4 gap-10">
-        <div className="md:col-span-1">
-          <a href="/" className="flex items-center gap-2 mb-3">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#5D5FA3] text-white">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2 2 10.5V22h6v-7h8v7h6V10.5L12 2Z" />
-              </svg>
-            </span>
-            <span className="text-white font-bold tracking-wide text-sm leading-tight">
-              PURPLE<br />ROOF
-            </span>
-          </a>
-          <p className="text-sm text-gray-400 leading-relaxed mb-5">
-            A global real estate platform for finding, listing, and financing homes.
-          </p>
-
-          {subscribed ? (
-            <p className="text-sm text-green-400 font-medium">
-              You're on the list — thanks for subscribing.
-            </p>
-          ) : (
-            <form onSubmit={handleSubscribe} className="flex">
-              <label htmlFor="footer-email" className="sr-only">
-                Email address
-              </label>
-              <input
-                id="footer-email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Your email"
-                className="min-w-0 flex-1 rounded-l-lg border border-white/10 bg-[#211f40] px-3 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#5D5FA3]"
-              />
-              <button
-                type="submit"
-                className="shrink-0 rounded-r-lg bg-[#5D5FA3] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#4E4F8C] transition-colors"
-              >
-                Join
-              </button>
-            </form>
-          )}
-        </div>
+    <footer className="bg-[#6C6FA0] text-gray-300">
+      <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-3 gap-10">
+        
 
         <div>
           <h4 className="text-white font-bold tracking-wide mb-4 text-sm">EXPLORE</h4>
