@@ -85,7 +85,7 @@ export default function ContactUs() {
     showError(field) ? "border-red-300" : "border-transparent";
 
   return (
-    <section className="bg-[#6C6FA0] py-8 px-6">
+    <section className="bg-[#6C6FA0] ">
       <div className="max-w-5xl mx-auto rounded-xl p-6 md:p-7">
         <div className="mb-4">
           <h2 className="text-2xl md:text-[28px] font-bold text-white leading-tight">
